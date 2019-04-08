@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  color: #333; }
+
+.app-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 30vh;
+  grid-template-areas: "search tweets replies messages"; }
+
+.tweets {
+  background-color: rgba(255, 0, 255, 0.37);
+  border: 1px solid #333;
+  grid-area: tweets; }
+
+.replies {
+  background-color: rgba(0, 255, 200, 0.37);
+  grid-area: replies; }
+
+.search {
+  background-color: rgba(255, 238, 0, 0.37);
+  grid-area: search; }
+
+.messages {
+  background-color: rgba(255, 72, 0, 0.37);
+  grid-area: messages; }
+
+/*# sourceMappingURL=grid-layout.css.map */

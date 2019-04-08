@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  margin: 10px auto;
+  width: 600px;
+  font-family: 'Lato';
+  text-align: center; }
+
+h2 {
+  margin: 25px;
+  margin-bottom: 50px;
+  font-size: 2em; }
+
+.container {
+  display: grid;
+  grid-template-columns: 180px 180px 180px;
+  grid-gap: 10px;
+  font-family: 'Lato';
+  text-align: center;
+  font-size: 1.4em; }
+
+.nonan {
+  background: orange;
+  padding: 40px 10px;
+  height: 120px;
+  font-size: 1.5em; }
+
+.floating {
+  float: left;
+  background: violet; }
+
+/*# sourceMappingURL=cap4-anon-grid-items.css.map */

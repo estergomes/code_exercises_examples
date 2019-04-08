@@ -1,0 +1,31 @@
+.app-layout {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 100px 250px 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+
+.teams {
+  background: darkcyan;
+  grid-column: 1;
+  grid-row: 1 / 4;
+}
+.channels {
+  background: rgb(37, 116, 116);
+  grid-column: 2;
+  grid-row: 1 / 4;
+}
+.header {
+  background: rgb(13, 56, 56);
+  grid-column: 3;
+  grid-row: 1;
+}
+.messages {
+  background: rgb(4, 224, 224);
+  grid-column: 3;
+  grid-row: 2;
+}
+.input {
+  grid-column: 3;
+  grid-row: 3;
+}

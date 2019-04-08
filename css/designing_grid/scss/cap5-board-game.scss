@@ -1,0 +1,10 @@
+.input:valid {
+border: 2px solid green;
+}
+.input:invalid {
+  border: 2px solid red;
+}
+#input1:valid ~ #input2:valid ~ #input3:valid ~ #input4:valid ~ #input5:valid ~ .valid-message {
+  display: block;
+}
+
